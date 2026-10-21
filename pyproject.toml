@@ -1,0 +1,24 @@
+[project]
+name = "biohackathon-env"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "uv",
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "pillow",
+    "scikit-image",
+    "pycocotools",
+    "requests",
+    "streamlit",
+    "torch",
+    "torchvision",
+    "ultralytics-opencv-headless",
+    "transformers",
+    "huggingface-hub",
+    "safetensors",
+    "datasets",
+]
