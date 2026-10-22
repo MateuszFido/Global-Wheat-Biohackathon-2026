@@ -21,4 +21,5 @@ dependencies = [
     "huggingface-hub",
     "safetensors",
     "datasets",
+    "pyarrow>=26.0.0",
 ]
