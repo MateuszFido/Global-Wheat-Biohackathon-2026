@@ -39,3 +39,5 @@ The second option is to use the [API prepared by Dr. Hanzhou Wang](https://githu
 An example Jupyter notebook showing how data can be pulled using the API can be found in this repository -- `api.ipynb`. 
 
 For model inference, API Keys would be needed: distributed to participants before/on December 7th.
+
+![](https://github.com/MateuszFido/gwcoord-test/blob/main/examples/renku-demo-api.gif)
