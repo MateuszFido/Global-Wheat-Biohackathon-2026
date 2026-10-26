@@ -1,3 +1,39 @@
-## Test repo for the 5th BioHackathon Germany (Dec 7-11)
+## Example setup for the 5th BioHackathon Germany (Dec 7-11)
 
-- TBD 
+This is a test repository serving as a minimal env setup for the Biohackathon
+for the Global Wheat track. It can be cloned to serve the `.toml` with minimal
+dependencies needed for ML work and using AI agents on the cloud collaboration
+platform [Renku](https://renkulab.io/). 
+
+It contains two examples for the Hackathon: 
+
+
+### Local (Renku only)
+
+The first option is to leverage the resources already present on Renku.
+
+- # Dataset 
+The participants will be provided with access to the dataset that Renku connects to 
+via an AWS S3 bucket instance. All teams and individuals can then access the dataset
+from their own sessions. 
+- # Models
+
+Models will be hosted on [the GlobalWheat repo on HuggingFace](https://huggingface.co/GlobalWheat).
+They can then be accessed immediately inside Renku via the provided `transformers` library.
+
+To facilitate agent-driven development, the setup file asks Renku to vendor 3 agent CLIs: 
+- Codex CLI, 
+- Claude Code,
+- Pi.
+
+These function with the BYOK (bring-your-own-key) model. The participants can directly register with their subscription plans or API keys.
+
+You can find an example of a vibe-coded app like this in this repo -- `app.py` is designed to be run directly from your Renku session, in a terminal. It will then open in another browser tab with a URL specific to the Renku session.
+
+### API 
+
+The second option is to use the [API prepared by Dr. Hanzhou Wang](https://github.com/UTokyo-FieldPhenomics-Lab/gwhs-biohackathon-api-gateway/tree/main) -- either on Renku or directly on the participant's machine. 
+
+An example Jupyter notebook showing how data can be pulled using the API can be found in this repository -- `api.ipynb`. 
+
+For model inference, API Keys would be needed: distributed to participants before/on December 7th.
