@@ -8,15 +8,15 @@ platform [Renku](https://renkulab.io/).
 It contains two examples for the Hackathon: 
 
 
-### Local (Renku only)
+## Local (Renku only)
 
 The first option is to leverage the resources already present on Renku.
 
-- # Dataset 
+- ### Dataset 
 The participants will be provided with access to the dataset that Renku connects to 
 via an AWS S3 bucket instance. All teams and individuals can then access the dataset
 from their own sessions. 
-- # Models
+- ### Models
 
 Models will be hosted on [the GlobalWheat repo on HuggingFace](https://huggingface.co/GlobalWheat).
 They can then be accessed immediately inside Renku via the provided `transformers` library.
@@ -30,7 +30,7 @@ These function with the BYOK (bring-your-own-key) model. The participants can di
 
 You can find an example of a vibe-coded app like this in this repo -- `app.py` is designed to be run directly from your Renku session, in a terminal. It will then open in another browser tab with a URL specific to the Renku session.
 
-### API 
+## API 
 
 The second option is to use the [API prepared by Dr. Hanzhou Wang](https://github.com/UTokyo-FieldPhenomics-Lab/gwhs-biohackathon-api-gateway/tree/main) -- either on Renku or directly on the participant's machine. 
 
