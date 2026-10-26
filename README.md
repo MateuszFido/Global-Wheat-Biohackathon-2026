@@ -21,7 +21,7 @@ from their own sessions.
 - ### Models
 
 Models will be hosted on [the GlobalWheat repo on HuggingFace](https://huggingface.co/GlobalWheat).
-They can then be accessed immediately inside Renku via the provided `transformers` library.
+They can then be accessed immediately inside Python (on Renku or elsewhere) via the provided `transformers` library.
 
 To facilitate agent-driven development, the setup file asks Renku to vendor 3 agent CLIs: 
 - Codex CLI, 
