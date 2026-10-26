@@ -30,6 +30,8 @@ These function with the BYOK (bring-your-own-key) model. The participants can di
 
 You can find an example of a vibe-coded app like this in this repo -- `app.py` is designed to be run directly from your Renku session, in a terminal. It will then open in another browser tab with a URL specific to the Renku session.
 
+![](https://github.com/MateuszFido/gwcoord-test/blob/main/examples/renku-demo.gif)
+
 ## API 
 
 The second option is to use the [API prepared by Dr. Hanzhou Wang](https://github.com/UTokyo-FieldPhenomics-Lab/gwhs-biohackathon-api-gateway/tree/main) -- either on Renku or directly on the participant's machine. 
