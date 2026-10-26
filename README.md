@@ -7,8 +7,8 @@ platform [Renku](https://renkulab.io/).
 
 It contains two examples for the Hackathon: 
 
-- [Local (Renku only)](https://github.com/MateuszFido/gwcoord-test/edit/main/README.md#local-renku-only)
-- [API](https://github.com/MateuszFido/gwcoord-test/edit/main/README.md#api)
+- [Local (Renku only)](https://github.com/MateuszFido/gwcoord-test#local-renku-only)
+- [API](https://github.com/MateuszFido/gwcoord-test#api)
 
 ## Local (Renku only)
 
