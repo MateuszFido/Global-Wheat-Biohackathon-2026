@@ -24,9 +24,11 @@ Models will be hosted on [the GlobalWheat repo on HuggingFace](https://huggingfa
 They can then be accessed immediately inside Python (on Renku or elsewhere) via the provided `transformers` library.
 
 To facilitate agent-driven development, the setup file asks Renku to vendor 3 agent CLIs: 
-- Codex CLI, 
-- Claude Code,
-- Pi.
+- Codex CLI (`codex`), 
+- Claude Code (`claude`),
+- Pi (`pi`).
+
+Each can be accessed immediately after launching a session inside a Renku project.
 
 These function with the BYOK (bring-your-own-key) model. The participants can directly register with their subscription plans or API keys.
 
