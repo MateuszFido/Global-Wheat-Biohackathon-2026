@@ -43,3 +43,10 @@ An example Jupyter notebook showing how data can be pulled using the API can be 
 For model inference, API Keys would be needed: distributed to participants before/on December 7th.
 
 ![](https://github.com/MateuszFido/gwcoord-test/blob/main/examples/renku-demo-api.gif)
+
+## Useful links
+
+Biohackathon 2026 group on renkulab.io: [https://renkulab.io/p/gwhs-biohackathon-2026/](https://renkulab.io/p/gwhs-biohackathon-2026/)  
+Global Wheat on HuggingFace: [https://huggingface.co/GlobalWheat](https://huggingface.co/GlobalWheat)  
+Global Wheat homepage: [https://www.global-wheat.com/](https://www.global-wheat.com/)  
+5th Biohackathon Track: [https://www.denbi.de/de-nbi-events/2137-5th-biohackathon-germany-global-wheat-head-segmentation-gwhs-towards-spikelet-counting-and-fusarium-detection-on-a-smartphone](https://www.denbi.de/de-nbi-events/2137-5th-biohackathon-germany-global-wheat-head-segmentation-gwhs-towards-spikelet-counting-and-fusarium-detection-on-a-smartphone)  
